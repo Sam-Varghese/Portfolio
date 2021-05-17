@@ -1,20 +1,27 @@
-body{
-    background-image: url("https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif");
+body {
+  background-image: url("https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif");
   color: white;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
 }
-a{
-    color: cyan;
+a {
+  color: cyan;
 }
 p {
   font-size: 23px;
-  background-image: url("")
+  border-style: groove;
+  border-width: 20px 10px 15px 10px;
+  border-color: cyan;
+  border-radius: 10px;
+  padding: 20px;
+  word-spacing: 10px;
+  margin: 50px;
 }
-.headings{
-    background-image: url("https://i.pinimg.com/originals/f4/52/a2/f452a2f4b634b3011e065da8eaf0a5c3.gif");
-    color: cyan;
-    text-align: center;
-    font-size: 60px;
-    font-style: bold;
+.headings {
+  color: cyan;
+  text-align: center;
+  font-size: 60px;
+  font-style: bold;
+  text-decoration: underline;
 }
