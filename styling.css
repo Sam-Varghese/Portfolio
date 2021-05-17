@@ -5,9 +5,17 @@ body {
   background-size: 100% 100%;
   
 }
-a {
+a:link {
   color: cyan;
 }
+a:visited{
+    color: yellow;
+}
+a:hover {
+    color: violet;
+  }
+
+
 p {
   font-size: 23px;
   border-style: groove;
@@ -19,9 +27,9 @@ p {
   margin: 50px;
 }
 .headings {
-  color: cyan;
+  color: white;
   text-align: center;
   font-size: 60px;
-  font-style: bold;
-  text-decoration: underline;
+  font-weight: bold;
+  text-shadow: 2px 15px 5px orange;
 }
