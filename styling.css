@@ -18,7 +18,7 @@ p {
   font-family: "KoHo", sans-serif;
   font-size: 2em;
   border-style: groove;
-  border-width: 0.8em 0.2em 0.5em 0.5em;
+  border-width: 0.8em 0.2em 0.3em 0.2em;
   border-color: cyan;
   border-radius: 0.1em;
   padding: 0.3em;
@@ -26,6 +26,7 @@ p {
   margin: 0.7em;
   font-variant: small-caps;
   text-align: center;
+  word-wrap: break-word;
 }
 .headings {
   font-family: "KoHo", sans-serif;
