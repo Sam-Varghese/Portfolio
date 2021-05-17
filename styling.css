@@ -3,18 +3,16 @@ body {
   color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  
 }
 a:link {
   color: cyan;
 }
-a:visited{
-    color: yellow;
+a:visited {
+  color: yellow;
 }
 a:hover {
-    color: violet;
-  }
-
+  color: violet;
+}
 
 p {
   font-size: 23px;
@@ -28,6 +26,9 @@ p {
   font-variant: small-caps;
 }
 .headings {
+  font-family: 'KoHo', sans-serif;
+  font-size: 10em;
+  display: block;
   color: white;
   text-align: center;
   font-size: 60px;
