@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif");
+  color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+a{
+    color: cyan;
+}
+p {
+  font-size: 23px;
+  background-image: url("")
+}
+.headings{
+    background-image: url("https://i.pinimg.com/originals/f4/52/a2/f452a2f4b634b3011e065da8eaf0a5c3.gif");
+    color: cyan;
+    text-align: center;
+    font-size: 60px;
+    font-style: bold;
+}
