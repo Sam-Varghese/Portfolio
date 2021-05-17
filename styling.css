@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif");
+  background-image: url("gif1.gif");
   color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -25,6 +25,7 @@ p {
   padding: 20px;
   word-spacing: 10px;
   margin: 50px;
+  font-variant: small-caps;
 }
 .headings {
   color: white;
