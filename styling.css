@@ -31,3 +31,6 @@ p {
   text-align: center;
   /* word-wrap: break-word; */
 }
+#ul1{
+  list-style-type: none;
+}
