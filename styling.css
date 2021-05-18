@@ -1,5 +1,5 @@
 html{
-    font-size: 40px;
+    font-size: 2vw;
 }
 body {
   background-image: url("gif1.gif");
@@ -23,8 +23,8 @@ p {
   border-style: groove;
   border-width: 0.5em 0.2em 0.3em 0.2em;
   border-color: cyan;
-  border-radius: 100px;
-  padding: 2px;
+  border-radius: 70px;
+  padding: 5px;
   word-spacing: 2px;
   margin: 1px;
   /* font-variant: small-caps; */
