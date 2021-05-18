@@ -1,3 +1,6 @@
+html{
+    font-size: 40px;
+}
 body {
   background-image: url("gif1.gif");
   color: white;
@@ -16,13 +19,13 @@ a:hover {
 
 p {
   font-family: "KoHo", sans-serif;
-  font-size: 40px;
+  /* font-size: 1rem; */
   border-style: groove;
   border-width: 0.5em 0.2em 0.3em 0.2em;
   border-color: cyan;
-  border-radius: 0.1em;
-  padding: 1pxvw;
-  word-spacing: 0.1em;
+  border-radius: 100px;
+  padding: 2px;
+  word-spacing: 2px;
   margin: 1px;
   /* font-variant: small-caps; */
   text-align: center;
