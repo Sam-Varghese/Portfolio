@@ -16,24 +16,15 @@ a:hover {
 
 p {
   font-family: "KoHo", sans-serif;
-  font-size: 4vw;
+  font-size: 40px;
   border-style: groove;
-  border-width: 0.8em 0.2em 0.3em 0.2em;
+  border-width: 0.5em 0.2em 0.3em 0.2em;
   border-color: cyan;
   border-radius: 0.1em;
-  padding: 0.3em;
+  padding: 1pxvw;
   word-spacing: 0.1em;
-  margin: 0.7em;
-  font-variant: small-caps;
+  margin: 1px;
+  /* font-variant: small-caps; */
   text-align: center;
-  word-wrap: break-word;
-}
-.headings {
-  font-family: "KoHo", sans-serif;
-  font-size: 900;
-  font-weight: 900;
-  display: block;
-  color: white;
-  text-align: center;
-  text-shadow: 2px 15px 5px orange;
+  /* word-wrap: break-word; */
 }
