@@ -12,13 +12,13 @@ body {
   background-image: url("gif1.gif");
   color: white;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 a:link {
   color: cyan;
 }
 a:visited {
-  color: yellow;
+  color: cyan;
 }
 a:hover {
   color: violet;
@@ -40,4 +40,4 @@ p {
 }
 #ul1 {
   list-style-type: none;
-}
+}}
