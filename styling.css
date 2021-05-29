@@ -15,10 +15,10 @@ body {
   background-size: cover;
 }
 a:link {
-  color: cyan;
+  color: yellow;
 }
 a:visited {
-  color: cyan;
+  color: rgb(36, 247, 36);
 }
 a:hover {
   color: violet;
@@ -40,4 +40,15 @@ p {
 }
 #ul1 {
   list-style-type: none;
-}}
+}
+img{
+  height: 20vw;
+  width: 20vw;
+  transition-duration: 0.5s;
+  border: 1.5vw solid yellow;
+}
+img:hover{
+  height: 20vw;
+  width: 25vw;
+  border: 1vw ridge white;
+}
