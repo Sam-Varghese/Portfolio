@@ -4,8 +4,11 @@ html {
 
 h1 {
   font-size: 2.5rem;
+  background-image: url("gif2.gif");
   text-align: center;
   text-shadow: 0.1rem 0.2rem 0.2rem rgb(172, 172, 52);
+  border: 2px solid white;
+  margin: 3vw;
 }
 
 body {
@@ -41,14 +44,42 @@ p {
 #ul1 {
   list-style-type: none;
 }
-img{
-  height: 20vw;
-  width: 20vw;
-  transition-duration: 0.5s;
-  border: 1.5vw solid yellow;
+#family-photo {
+  width: 70vw;
+  height: 40vw;
+  /* visibility: hidden; */
 }
-img:hover{
-  height: 20vw;
-  width: 25vw;
+img {
+  
+  transition-duration: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1vw ridge yellow;
+}
+img:hover {
   border: 1vw ridge white;
+}
+#menu-ul {
+  
+  margin: 0.5vw 1vw 0vw 1vw;
+  overflow: auto;
+  background-color: cyan;
+}
+#menu-li {
+  float: left;
+  padding: 1vw;
+  list-style-type: none;
+  color: blue;
+}
+#menu-li:hover {
+  float: left;
+  padding: 1vw;
+  list-style-type: none;
+  color: black;
+  background-color: yellow;
+}
+#menu-ul:hover { 
+  margin: 0.5vw 1vw 0vw 1vw;
+  overflow: auto;
+  background-color: cyan;
 }
