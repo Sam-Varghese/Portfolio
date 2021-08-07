@@ -25,12 +25,15 @@ body {
 }
 a:link {
   color: yellow;
+  text-decoration: none;
 }
 a:visited {
   color: rgb(36, 247, 36);
+  text-decoration: none;
 }
 a:hover {
   color: violet;
+  text-decoration: none;
 }
 
 p {
@@ -75,6 +78,7 @@ img:hover {
   border: 2px solid white;
   background-color:black;
   font-size: 4vmin;
+  color: white;
 }
 
 .menu-item-active {
@@ -90,4 +94,16 @@ img:hover {
 .menu-items:hover {
   background-color:yellow;
   color: black;
+}
+
+.logo {
+  width: 5vw;
+  border: none;
+  padding: 3vw;
+}
+
+.logo:hover {
+    width: 5vw;
+  border: none;
+  background-color: rgba(238, 232, 232, 0.4)
 }
