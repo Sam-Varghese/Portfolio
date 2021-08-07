@@ -76,9 +76,10 @@ img:hover {
   padding-left: 5vw;
   margin-right: 1vw;
   border: 2px solid white;
-  background-color:black;
+  background-color:rgba(1,1,1,0.3);
   font-size: 4vmin;
   color: white;
+  transition: all;
 }
 
 .menu-item-active {
@@ -86,7 +87,7 @@ img:hover {
   padding-left: 5vw;
   margin-right: 1vw;
   border: 2px solid white;
-  background-color:cyan;
+  background-color:rgb(10, 221, 221, 0.3);
   color: black;
   font-size: 4vmin;
 }
