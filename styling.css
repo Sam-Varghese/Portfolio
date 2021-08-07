@@ -21,6 +21,7 @@ body {
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 a:link {
   color: yellow;
@@ -41,9 +42,11 @@ p {
   border-radius: 0.5rem;
   padding: 0.5rem;
   word-spacing: 0.1rem;
-  margin: 1rem;
+  margin: 3vw;
   /* font-variant: small-caps; */
   text-align: center;
+  background-color: rgb(15, 247, 231, 0.3);
+  box-shadow: 1vw 2vh rgba(1,1,1, 0.4);
   /* word-wrap: break-word; */
 }
 #ul1 {
@@ -68,12 +71,23 @@ img:hover {
 .menu-items {
   padding-right: 5vw;
   padding-left: 5vw;
+  margin-right: 1vw;
   border: 2px solid white;
   background-color:black;
   font-size: 4vmin;
 }
 
+.menu-item-active {
+  padding-right: 5vw;
+  padding-left: 5vw;
+  margin-right: 1vw;
+  border: 2px solid white;
+  background-color:cyan;
+  color: black;
+  font-size: 4vmin;
+}
+
 .menu-items:hover {
-  background-color:rgb(36, 247, 36);
+  background-color:yellow;
   color: black;
 }
